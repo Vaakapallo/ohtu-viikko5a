@@ -97,7 +97,7 @@ public class VarastoTest {
 
     @Test
     public void otetaanKaikkiPoisOnkoTyhja() {
-        varasto.lisaaVarastoon(5);
+        varasto.lisaaVarastoon(7);
         varasto.otaVarastosta(varasto.getTilavuus());
         assertEquals(0, varasto.getSaldo(), vertailuTarkkuus);
     }
